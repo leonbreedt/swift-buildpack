@@ -11,8 +11,8 @@ fi
 BUILD_DIR=$1
 CACHE_DIR=$2
 
-DEFAULT_SWIFT_VERSION=DEVELOPMENT-SNAPSHOT-2016-03-24-a
-CLANG_VERSION=3.7.0
+DEFAULT_SWIFT_VERSION=3.0.2-RELEASE
+CLANG_VERSION=3.8.0
 
 if [ -f $BUILD_DIR/.swift-version ]; then
   # Take any pinned Swift version, stripping any redundant `swift-` prefix if present
