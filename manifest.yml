@@ -72,14 +72,14 @@ dependencies:
       - cflinuxfs2
   - name: swift
     version: 3.0.2-RELEASE
-    uri: https://swift.org/builds/swift-3.0.2-release/ubuntu1604/swift-3.0.2-RELEASE/swift-3.0.2-RELEASE-ubuntu16.04.tar.gz
-    md5: 5b7534adb4512b847b4f01ba3aa41899
+    uri: https://swift.org/builds/swift-3.0.2-release/ubuntu1404/swift-3.0.2-RELEASE/swift-3.0.2-RELEASE-ubuntu14.04.tar.gz
+    md5: 7979301bf1163b07524d5f9144d3ce53
     cf_stacks:
       - cflinuxfs2
   - name: clang
     version: 3.8.0
-    uri: http://releases.llvm.org/3.8.0/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-16.04.tar.xz
-    md5: ec83729b5d6d6aee8de6f6dc47909760
+    uri: http://releases.llvm.org/3.8.0/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-14.04.tar.xz
+    md5: 890274421f4480ce228ed3eab1fd3c73
     cf_stacks:
       - cflinuxfs2
 
